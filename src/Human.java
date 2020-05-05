@@ -2,5 +2,5 @@ package com.company;
 
 public class Human {
 
-    Animal pet;
+    com.company.Animal pet;
 }
