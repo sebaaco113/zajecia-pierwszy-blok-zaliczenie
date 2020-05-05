@@ -22,8 +22,11 @@ public class Main {
 
       human.addMyCar(Audi);
 
+      human.addMyCar(Audi);
+
       System.out.println("________________________");
       human.getSalry();
+      human.getSalary();
 
     }
 }

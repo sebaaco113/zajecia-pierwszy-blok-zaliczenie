@@ -6,43 +6,29 @@ import java.util.Date;
 public class Human {
 
     Animal pet;
-    Car mycar;
     Car myCar;
+    private Car myCar;
     Double salary;
 
     Date date = new Date();
-
-
-    void addMyCar(Car car) {
-        this.myCar = car;
-    }
-
-    public Double setSalary(Double salary) {
-
-        if (salary < 0) {
-            System.out.println("Musisz cos zarabiac");
-        } else {
-            System.out.println("Nowa pensja w kadrach ");
-            System.out.println("Wez to do Ani");
-            System.out.println("ZUS i US kradną część siana ");
-
-            return salary;
-        }
-        return salary;
-    }
-
-    public Animal getPet() {
-        return pet;
-    }
-
-    public Car getMyCar() {
+    @@ -38,7 +38,19 @@ public Car getMyCar() {
         return myCar;
     }
 
-    void addMyCar(Car car){
-        this.mycar=car;
-        public Double getSalry() {
+    public Double getSalry() {
+        public void setMyCar(Car myCar) {
+            if(salary>=myCar.price) {
+                System.out.println("Możesz kupić furę!");
+                addMyCar(myCar);
+            }else if (salary>(myCar.price/12)){
+                System.out.println("Możesz kupić furę na raty");
+                addMyCar(myCar);
+            }else {
+                System.out.println("Jesteś za biedny");
+            }
+        }
+
+        public Double getSalary() {
             System.out.println(date + " " + " " + salary);
             return salary;
         }
-    }
