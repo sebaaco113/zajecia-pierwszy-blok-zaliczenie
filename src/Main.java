@@ -24,7 +24,7 @@ public class Main {
 
       human.addMyCar(Audi);
 
-      System.out.println("________________________");
+      System.out.println("_________________________");
       human.getSalry();
       human.getSalary();
 

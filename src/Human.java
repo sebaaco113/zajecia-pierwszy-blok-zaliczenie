@@ -24,7 +24,7 @@ public class Human {
                 System.out.println("Możesz kupić furę na raty");
                 addMyCar(myCar);
             }else {
-                System.out.println("Jesteś za biedny");
+                System.out.println("Jesteś zbyt biedny");
             }
         }
 

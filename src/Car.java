@@ -9,7 +9,8 @@ public class Car {
     int price;
 
 
-    public int getPrice() {
+
+   public int getPrice() {
         return price;
     }
 }
