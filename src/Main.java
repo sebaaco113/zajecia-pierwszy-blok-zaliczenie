@@ -22,5 +22,8 @@ public class Main {
 
       human.addMyCar(Audi);
 
+      System.out.println("________________________");
+      human.getSalry();
+
     }
 }
