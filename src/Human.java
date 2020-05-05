@@ -1,6 +1,11 @@
-package com.company;
-
 public class Human {
 
-    com.company.Animal pet;
-}
+    Animal pet;
+    Car mycar;
+
+
+
+
+    void addMyCar(Car car){
+        this.mycar=car;
+    }

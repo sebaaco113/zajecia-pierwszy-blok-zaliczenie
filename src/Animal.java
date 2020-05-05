@@ -23,7 +23,7 @@ public class Animal {
 
         if(weight>0) {
             weight -= 2;
-            System.out.println("Pies tyje 2 kg");
+            System.out.println("Pies chudnie 2 kg");
             System.out.println("My weight="+weight);
         }else{
             System.out.println("Mordo, jestem za chudy!");
